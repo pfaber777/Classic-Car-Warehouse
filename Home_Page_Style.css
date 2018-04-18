@@ -1,0 +1,200 @@
+
+        /* -- BACKGROUND IMAGE -- */
+body {
+    background-image: url("../Images/SITE BACKGROUNDS/porsche.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px auto;
+    background-size: 100%;
+    
+}
+
+/* MENU CONTAINER */
+#container {
+    width: 100%;
+    height: 10%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+
+
+
+
+
+/* MENU LIST SIZE, RESET & World positioning */
+#menu_nav ul {
+    
+    padding: 0px;
+    margin: 60px auto 5px auto;
+    overflow: hidden;
+    width: 585px;
+    height: 90px;
+}
+
+
+
+    /* Menu Words */
+#menu_nav li {
+    float: left;
+    letter-spacing: 0.3em; 
+}
+
+
+
+/* ---- BUTTON STYLING ---- */
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/Open Sans/OpenSans-Regular-webfont.woff') format('woff');
+}
+
+
+
+    /* HOME */
+#button_home {
+    height: 40px;
+    padding: 16px 80px 16px 80px;
+    
+}
+
+
+
+#divider {
+    font-size: 50px;
+    height: 80px;
+    padding: 0px;
+
+}
+
+    /* CONTACT */
+#button_contact {
+    padding: 16px 80px 16px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+    /* BUTTON LINK STYLES */
+
+#button_home a {
+    text-decoration: none;
+    font-family: open_sansregular;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+#button_contact a {
+    text-decoration: none;
+    font-family: open_sansregular;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+
+
+/* ----- PAGE MIDDLE STYLING ----- */
+
+#page_middle {
+    height: 520px;
+    width: 100%;
+
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+
+
+
+/* ---- FOOTER STYLING ---- */
+
+
+#home_footer {
+    width: 100%;
+    padding: 30px 0px;
+    margin-bottom: 5px;
+    margin-top: 180px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+/* ---- DISPLAYS ---- */
+
+        
+        /* 23' PC monitor */
+@media screen and (max-width:1920px) {
+    body {
+        background-size: 100%;
+    }
+
+    #menu_nav ul {
+        list-style: none;
+        padding: 0px;
+        margin: 60px auto 5px auto;
+        overflow: hidden;
+        width: 585px;
+        height: 90px;
+    }
+
+    #home_footer {
+        width: 100%;
+        padding: 30px 0px;
+        margin-bottom: 5px;
+        margin-top: 180px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}
+
+        /* 23' PC Monitor END */
+
+
+
+/* 15.6 inch laptop Display */
+
+
+@media screen and (max-width:1366px) {
+    body {
+        background-size: 100%;
+    }
+
+    #menu_nav ul {
+        list-style: none;
+        padding: 0px;
+        margin: 40px auto 5px auto;
+        overflow: hidden;
+        width: 585px;
+        height: 90px;
+    }
+
+
+    #page_middle {
+        height: 240px;
+        width: 100%;
+    
+        overflow: hidden;
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+
+    #home_footer {
+        width: 100%;
+        padding: 30px 0px;
+        margin-bottom: 5px;
+        margin-top: 180px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}
